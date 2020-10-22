@@ -190,7 +190,7 @@ body {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards; /*! sets how a CSS animation applies styles to its target before and after its execution. */
 }
