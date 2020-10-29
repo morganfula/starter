@@ -54,3 +54,21 @@
     animation-fill-mode: backwards; /*! sets how a CSS animation applies styles to its target before and after its execution. */
   }
 }
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: 1.6rem;
+    color: $primary-color;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 0.1rem solid $primary-color;
+    padding: 0.3rem;
+  }
+
+  &:hover {
+  }
+
+  &:active {
+  }
+}
